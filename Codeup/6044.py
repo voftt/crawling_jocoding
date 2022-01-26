@@ -1,0 +1,26 @@
+# a , b = input().split()
+
+# add = int(a) + int(b)
+# sub = int(a) - int(b)
+# mul = int(a) * int(b)
+# div = int(a) // int(b)
+# res = int(a) % int(b)
+# z = int(a) / int(b)
+
+# print(add)
+# print(sub)
+# print(mul)
+# print(div)
+# print(res)
+# print(format(z,".2f"))
+
+a,b=input().split()
+a=int(a)
+b=int(b)
+print(a+b)
+print(a-b)
+print(a*b)
+print(a//b)
+print(a%b)
+print(round(a/b,2))
+
